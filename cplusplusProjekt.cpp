@@ -24,6 +24,16 @@ void displayNum(int n1, float n2) {
 }
 
 
+// This function return the sum from 0 to n. (Created by: Rohit Saini)
+int sum(int n){
+    int Sum=0;
+    for (int i = 0; i <= n; i++)
+    {
+        Sum+=i;
+    }
+    return Sum;
+}
+
 int main(){
     int num;
     cin >> num;
