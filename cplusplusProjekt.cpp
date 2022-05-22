@@ -13,12 +13,18 @@ bool checkPrime(int n){
 
 }
 
+void greet() {
+    cout << "Hello there!";
+}
+
 
 int main(){
     int num;
     cin >> num;
 
     cout << "Prime : " << checkPrime(num);
+    
+    greet();
 
     return 0;
 }
