@@ -17,6 +17,12 @@ void greet() {
     cout << "Hello there!";
 }
 
+// display a number
+void displayNum(int n1, float n2) {
+    cout << "The int number is " << n1;
+    cout << "The double number is " << n2;
+}
+
 
 int main(){
     int num;
@@ -25,6 +31,8 @@ int main(){
     cout << "Prime : " << checkPrime(num);
     
     greet();
+    
+    displayNum();
 
     return 0;
 }
